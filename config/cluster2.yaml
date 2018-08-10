@@ -1,0 +1,10 @@
+apiVersion: "openstack.org/v1"
+kind: KuryrNet
+metadata:
+  name: cluster2
+spec:
+  ovs_bridge: br-int
+  pod_security_groups: 111111
+  pod_subnet: 222222
+  project: 333333
+  service_subnet: 444444
